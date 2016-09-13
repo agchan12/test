@@ -19,7 +19,9 @@ README.MD
 ### 1. Install necessary working environment
 
 #### Installation
-In the Interactive Ruby Shell type in the following commands
+In the Interactive Ruby Shell type in the following commands. 
+
+NOTE: When running "gem install bundler" and it asks for permission. Try "sudo gem install bundler"
 
     gem install bundler
     bundle install
