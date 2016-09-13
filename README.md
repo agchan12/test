@@ -42,7 +42,9 @@ NOTE: Make sure to have run the command "ruby index.rb" before continuing
 
 ### Question 1
 
-To run this segment of the code, open up the browser and type in the URL - http://localhost:4567/ 
+To run this segment of the code, open up the browser and type in the URL 
+
+http://localhost:4567/ 
 
 You should be presented with a page with the words 
 
