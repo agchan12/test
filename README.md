@@ -28,7 +28,7 @@ Andrew Chan
 
 #### Installation
 
-The whole project is written in ruby. Please install Ruby developement environment first
+The whole project is written in Ruby. Please install Ruby developement environment first
 
 Then run the following commands in terminal
 
