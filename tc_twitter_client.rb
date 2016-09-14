@@ -10,7 +10,7 @@ class TestTwitterClient < Test::Unit::TestCase
 
     # Assume twitter user "aTwitterAccount"
     # post no tweets in last 24 hours
-    hash = TwitterClient.instance.count_tweets("aTwitterAccount)
+    hash = TwitterClient.instance.count_tweets("aTwitterAccount")
     assert_equal(0, hash.size())
   end
 end
