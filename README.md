@@ -16,7 +16,7 @@ Andrew Chan
   * Service code, connecting twitter API, fetch data and handle the logic.
 4. tc_twitter_client.rb
   * Unit test code. mainly tesintg Question 3.
-4. automatic_test.sh
+5. automatic_test.sh
   * A shell script, used as automatic test for Question 1 and 2.
 
 
@@ -42,6 +42,8 @@ This will install all necessary libraries
 #### Running the code
     cd /path/to/folder
     ruby router.rb
+
+Instructions below on the relevant URL's to the BigCommerce Assignment Questions
 
 ### 3. Unit Test
 
