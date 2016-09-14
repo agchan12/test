@@ -1,8 +1,8 @@
-#BigCommerce
+#Compromises
 
-There isn't much to compromise in this short assignment.
+There isn't much to compromise in this short assignment. Given the time constraints, and fact that I had never programmed in Ruby before, I was objectively seeking on completing exactly what was set out to me.
 
-A few things I could do to improve the webpages:
+A few things I have in mind to to improve the webpages:
 
 - Add more HTML formatting
 
