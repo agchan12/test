@@ -51,6 +51,13 @@ NOTE: Make sure to have run the command "ruby router.rb" before continuing
     cd /path/to/folder
     ruby tc_twitter_client.rb
 
+Expected Results
+
+    1 tests, 3 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+    100% passed
+
+If you do not see these results, reconfigure testing environment and check that you have followed this Readme file exactly.
+
 ### 4. Automatic Test
 
 Q1 and Q2 only ask to return text value. Using selenium test seems be too much,
