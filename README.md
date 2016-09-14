@@ -16,7 +16,7 @@ Andrew Chan
   * Service code, connecting twitter API, fetch data and handle the logic.
 4. tc_twitter_client.rb
   * Unit test code. mainly tesintg Question 3.
-4. test.sh
+4. automatic_test.sh
   * A shell script, used as automatic test for Question 1 and 2.
 
 
