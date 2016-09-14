@@ -12,7 +12,7 @@ Gemfile
 
 index.rb
 
-README.
+README.MD
 
 Questionnaire.md
 
