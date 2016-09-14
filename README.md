@@ -43,8 +43,6 @@ This will install all necessary libraries
     cd /path/to/folder
     ruby router.rb
 
-Instructions below on the relevant URL's to the BigCommerce Assignment Questions
-
 ### 3. Unit Test
 
 NOTE: Make sure to have run the command "ruby router.rb" before continuing
