@@ -68,9 +68,8 @@ NOTE: If after running the command "sh automatic_test.sh" returns an unexpected 
 
 Results of the automatic test should be:
 
-testing Q1: pass
-
-testing Q2: pass
+    testing Q1: pass
+    testing Q2: pass
 
 If you do not see these results, reconfigure testing environment and check that you have followed this Readme file exactly.
 
