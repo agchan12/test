@@ -59,12 +59,20 @@ So I wrote a shell script that act as automatic test.
 Running requirement: "curl" command tool must be installed.
 
 NOTE: Make sure to have run the command "ruby router.rb" before continuing
-NOTE: If after running the command "sh automatic_test.sh" returns an unexpected operator command. Run "bash ./automatic_test.sh"
+
+NOTE: If after running the command "sh automatic_test.sh" returns an unexpected operator. Run "bash ./automatic_test.sh"
 
 #### Running the tesing code
     cd /path/to/folder
     sh automatic_test.sh
 
+Results of the automatic test should be:
+
+testing Q1: pass
+
+testing Q2: pass
+
+If you do not see these results, reconfigure testing environment and check that you have followed this Readme file exactly.
 
 ## About Questions
 
