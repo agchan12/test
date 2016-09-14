@@ -1,3 +1,5 @@
+. 
+
 # BigCommerce Assignment
 
 Project source can be downloaded from https://github.com/agchan12/BigCommerce.git
@@ -6,17 +8,18 @@ Project source can be downloaded from https://github.com/agchan12/BigCommerce.gi
 
 Andrew Chan
 
-##File List
+## File List
 
-Gemfile
-
-index.rb
-
-README.MD
-
-Questionnaire.md
-
-Compromises.md
+1. Gemfile
+  * gem package control file.
+2. router.rb
+  * Controller, map the URL with certain method.
+3. twitter_client.rb
+  * Service code, connecting twitter API, fetch data and handle the logic.
+4. tc_twitter_client.rb
+  * Unit test code. mainly tesintg Question 3.
+4. test.sh
+  * A shell script, used as automatic test for Question 1 and 2.
 
 
 ## Setting up
@@ -25,7 +28,9 @@ Compromises.md
 
 #### Installation
 
-Run the following commands in terminal
+The whole project is written in ruby. Please install ruby developement environment first
+
+Then run the following commands in terminal
 
 NOTE: When running "gem install bundler" and it asks for permission. Try "sudo gem install bundler"
 
@@ -37,13 +42,34 @@ This will install all necessary libraries
 ### 2. How to run the code
 
 #### Running the code
-		cd /path/to/folder
-		ruby index.rb
+    cd /path/to/folder
+    ruby router.rb
+
+### 3. Unit Test
+
+NOTE: Make sure to have run the command "ruby router.rb" before continuing
+
+#### Running the testing code
+    cd /path/to/folder
+    ruby tc_twitter_client.rb
+
+### 4. Automatic Test
+
+Q1 and Q2 only ask to return text value. Using selenium test seems be too much,
+So I wrote a shell script that act as automatic test.
+
+Running requirement: "curl" command tool must be installed.
+
+NOTE: Make sure to have run the command "ruby router.rb" before continuing
+
+#### Running the tesing code
+    cd /path/to/folder
+    sh automatic_test.sh
 
 
-## Questions
+## About Questions
 
-NOTE: Make sure to have run the command "ruby index.rb" before continuing
+NOTE: Make sure to have run the command "ruby router.rb" before continuing
 
 ### Question 1
 
@@ -80,4 +106,3 @@ You should be presented with a page of numbers in the format of
 Where the number to the left of the colon represents every hour for the past 24 hours
 
 The x represents an arbitrary number of tweets from that account for the hour respectively. 
-
