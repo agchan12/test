@@ -8,9 +8,11 @@ class TestTwitterClient < Test::Unit::TestCase
     hash = TwitterClient.instance.count_tweets("ABC")
     assert_equal(24, hash.size())
 
-    # Assume twitter user "do_saru"
+    # Assume twitter user "Xinyu_Li"
     # post no tweets in last 24 hours
-    hash = TwitterClient.instance.count_tweets("do_saru")
-    assert_equal(0, hash.size())
+    hash = TwitterClient.instance.count_tweets("Xinyu_Li")
+    assert_equal(24, hash.size())
+    # test all the tweets count are 0
+    assert_equal(0, hash.values.inject(0){|sum,x| sum + x })
   end
 end
