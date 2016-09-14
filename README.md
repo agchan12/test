@@ -13,7 +13,7 @@ Andrew Chan
 1. Gemfile
   * gem package control file.
 2. router.rb
-  * Controller. Masp the URL with certain method.
+  * Controller. Maps the URL with certain method.
 3. twitter_client.rb
   * Service code. Connects the twitter API, fetches the data and handle the logic.
 4. tc_twitter_client.rb
