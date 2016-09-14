@@ -13,13 +13,13 @@ Andrew Chan
 1. Gemfile
   * gem package control file.
 2. router.rb
-  * Controller, map the URL with certain method.
+  * Controller. Masp the URL with certain method.
 3. twitter_client.rb
-  * Service code, connecting twitter API, fetch data and handle the logic.
+  * Service code. Connects the twitter API, fetches the data and handle the logic.
 4. tc_twitter_client.rb
-  * Unit test code,mainly testing Question 3.
+  * Unit test code. Mainly testing Question 3.
 4. test.sh
-  * A shell script, used as automatic test for Question 1 and 2.
+  * A shell script. Used as automatic test for Question 1 and 2.
 
 
 ## Setting up
@@ -28,7 +28,7 @@ Andrew Chan
 
 #### Installation
 
-The whole project is written in ruby. Please install ruby developement environment first
+The whole project is written in ruby. Please install Ruby developement environment first
 
 Then run the following commands in terminal
 
@@ -49,13 +49,13 @@ This will install all necessary libraries
 
 NOTE: Make sure to have run the command "ruby router.rb" before continuing
 
-#### Running the testing code
+#### Running the test code
     cd /path/to/folder
     ruby tc_twitter_client.rb
 
 ### 4. Automatic Test
 
-Q1 and Q2 only ask to return text value. Using selenium test seems be too much,
+Q1 and Q2 only asks to return text value. Using selenium test seems be too much for this task. 
 So I wrote a shell script that act as automatic test.
 
 Running requirement: "curl" command tool must be installed.
