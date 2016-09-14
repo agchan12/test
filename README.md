@@ -17,7 +17,7 @@ Andrew Chan
 3. twitter_client.rb
   * Service code, connecting twitter API, fetch data and handle the logic.
 4. tc_twitter_client.rb
-  * Unit test code. mainly tesintg Question 3.
+  * Unit test code,mainly testing Question 3.
 4. test.sh
   * A shell script, used as automatic test for Question 1 and 2.
 
