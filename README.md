@@ -12,7 +12,12 @@ Gemfile
 
 index.rb
 
-README.MD
+README.
+
+Questionnaire.md
+
+Compromises.md
+
 
 ## Setting up
 
